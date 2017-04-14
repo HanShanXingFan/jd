@@ -1,0 +1,89 @@
+.center{
+	margin:0 auto;
+	width: 1190px;
+}
+.head{
+	background-color: #ff0000;
+	/*width: 100%;*/
+	height: 80px;
+	/*margin:0 auto;*/
+	text-align: center;
+}
+.nav{
+	height: 30px;
+	background-color: #e3e4e5;
+}
+.daliebiao{
+	width: 257px;
+	height: 30px;
+}
+.zongli{
+	float: right;
+	border: 1px solid #e3e4e5;
+	border-bottom: none;
+	width: 57px;
+	height: 29px;
+	color: #999;
+	text-align: center;
+	line-height: 29px;
+	position: relative;
+}
+.zongli:hover{
+	background:#FFFFFF;
+	border: 1px solid #ccc;
+	border-bottom: none; 
+}
+.zongli:hover:after{
+	content: "";
+	width: 57px;
+	height: 1px;
+	background-color: #FFFFFF;
+	position: absolute;
+	left: 0;
+	top:29px;
+	z-index:100;
+} 
+.zongli:hover>.dingwei-lb{
+	display: block;
+}
+.xiaohezi{
+	width: 44.5px;
+	margin:0 auto; 
+}
+.dingwei-lb{
+	border: 1px solid #ccc;
+	width: 320px;
+	height: 215px;
+	position: absolute;
+	top:29px;
+	/*为什么,已解决*/
+	left:-1px;
+	display: none;
+}
+.dingwei-lb>li{
+	float:left;
+	width: 52px;
+	height: 23px;
+	/*float:left;*/
+	margin:0 12px 8px 0;
+	/*background:pink;*/
+	text-align: center
+	line-height: 23px;
+}
+.dingwei-lb>li>a{
+	font-size: 12px;
+	display: block;
+	width: 40px;
+	height: 20px;
+	margin-left: 12px;
+	font-family: Arial;
+}
+.dingwei-lb>li>a:hover{
+
+	background-color: #f4f4f4;
+	color:#c81623;
+}
+
+
+
+
